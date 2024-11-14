@@ -9,8 +9,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <link rel="icon" type="image/x-icon" href="https://nhanh.vn/img/landing/landing27/icon-1.png">
-
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://nhanh.vn/img/landing/landing27/icon-1.png"
+    />
   </head>
   <body>
     <header>
@@ -22,53 +25,80 @@
         <a href="#">Cart</a>
         <button class="profile-btn">Shopping profile</button>
         <i class="icon-user fa-solid fa-user"></i>
+      </nav>
     </header>
 
     <main class="container">
-      <div class="progress-bar">
+      <!-- <div class="progress-bar">
         <div>Pick up point</div>
         <div>Warehouse</div>
         <div>My Address</div>
-      </div>
+      </div> -->
 
       <div class="product-card">
+        <div class="button">
+          <button class="recent-btn">Recent Product</button>
+          <button class="recent-btn">Cancelled</button>
+        </div>
         <img src="https://via.placeholder.com/150" alt="Product Image" />
         <div class="product-details">
           <h3>Heirloom tomato</h3>
           <p>$5.99 / lb</p>
           <p>Grown in San Juan Capistrano, CA</p>
-          <p>Quantity: 3</p>
-          <p>Total: 17.97$</p>
-          <p>Address: 76b, Long Bien district, Ha Noi</p>
+          <p><strong>Quantity:</strong> 3</p>
+          <p><strong>Total:</strong> 17.97$</p>
+          <p><strong>Address:</strong> 76b, Long Bien district, Ha Noi</p>
         </div>
         <div class="actions">
-          <button>Comment</button>
-          <button>Add to favourite</button>
-          <button>Chat to shop</button>
+          <button>
+            Comment <br />
+            <i class="icon-action fa-solid fa-comment"></i>
+          </button>
+          <button>
+            Favourite <i class="icon-action fa-solid fa-heart"></i>
+          </button>
+          <button>Chat<i class="icon-action fa-solid fa-headset"></i></button>
         </div>
       </div>
 
       <div class="shipping-timeline">
-        <h3>Shipping Time Table</h3>
-        <p style="color: #d33">
-          • You can cancel your order between the time your order is confirmed
-          and the end of the cancellation period.<br />
-          • After the allowed time, the system will charge you $5 shipping fee.
-        </p>
-        <ul>
-          <li>04/11/2024 - 13:00: Delivery successful</li>
-          <li>04/11/2024 - 12:30: Delivered</li>
-          <li>04/11/2024 - 12:00: Shipping...</li>
-          <li>04/11/2024 - 11:30: Wait for suddenly cancelled</li>
-          <li>04/11/2024 - 11:00: Take stuff</li>
-          <li>04/11/2024 - 10:30: Shipping Truck go to Warehouse</li>
-          <li>04/11/2024 - 09:30: Order Success</li>
-        </ul>
+        <div class="caution">
+          <h3>Shipping Time Table</h3>
+          <p style="color: #d33; font-size: 1.5rem">
+            • You can cancel your order between the time your order is confirmed
+            and the end of the cancellation period
+          </p>
+          <p style="color: #d33; font-size: 1.5rem">
+            • After the allowed time, the system will charge you $5 shipping
+            fee.
+          </p>
+        </div>
+        <div class="time">
+          <ul class="time-table">
+            <li class="date-time">04/11/2024 - 13:00: X Delivery successful</li>
+            <li class="column-line">|</li>
+            <li class="date-time">04/11/2024 - 12:30: X Delivered</li>
+            <li class="column-line">|</li>
+            <li class="date-time">04/11/2024 - 12:00: X Shipping...</li>
+            <li class="column-line">|</li>
+            <li class="date-time">
+              04/11/2024 - 11:30: X Wait for suddenly cancelled
+            </li>
+            <li class="column-line">|</li>
+            <li class="date-time">04/11/2024 - 11:00: X Take stuff</li>
+            <li class="column-line">|</li>
+            <li class="date-time">
+              04/11/2024 - 10:30: V Shipping Truck go to Warehouse
+            </li>
+            <li class="column-line">|</li>
+            <li class="date-time">04/11/2024 - 09:30: V Order Success</li>
+          </ul>
+        </div>
       </div>
     </main>
 
     <footer>
-      <div>
+      <div class="footer icon">
         <h4>NMC SHOP</h4>
         <p>Website selling clean and organic food</p>
       </div>
