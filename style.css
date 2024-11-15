@@ -6,7 +6,7 @@
 
     body {
       font-family: Arial, sans-serif;
-    
+
       color: #333;
     }
 
@@ -21,12 +21,13 @@
 
     header nav a {
       color: white;
-      margin: 0 1rem;
+      margin: 0 0.625rem;
       text-decoration: none;
+      font-size: 24px;
     }
 
     nav {
-      margin-right: 3.5rem;
+      margin-right: 0.625rem;
     }
 
     header .profile-btn {
@@ -37,13 +38,20 @@
       border-radius: 4px;
       cursor: pointer;
       margin: 0 1.5rem 0 1rem;
+      font-size: 24px;
     }
+
     .logo p {
-      margin-left: 4rem;
-      font-size: larger;
+      margin-left: 0.625rem;
+      font-size: 48px;
       font-weight: bold;
-      
+
     }
+
+    .icon-user {
+      font-size: 24px;
+    }
+
     /* Main Layout */
     .container {
       display: flex;
@@ -52,40 +60,69 @@
       justify-content: center;
     }
 
+    .progress-bar {
+      margin: 2% 0 0 25%;
+      width: 70%;
+
+
+    }
+
+    .progress-bar img {
+      position: relative;
+      left: -5%;
+      height: 90px;
+      width: 816.03px;
+
+    }
+
+    .progress-bar h3 {
+      position: relative;
+      right: 27.7%;
+      
+    }
+
 
     /* Product Card */
     .product-card {
-      padding: 1rem;
+
       border-radius: 8px;
 
-      width: 29.26%;
-      margin: 5.9rem 5.81% 6.8125rem 5.81%;
+      width: 31.55%;
+      margin: 5.9rem 5.68% 6.8125rem 5.68%;
       position: relative;
     }
 
     .product-card img {
-      width: 90%;
+      width: 100%;
       height: 60%;
       border-radius: 8px;
     }
 
     .product-details {
-      padding: 1rem 0;
+      display: flex;
+      flex-direction: column;
     }
+
+    .actions{
+      margin-left: -8%;
+    }
+
 
     .product-details h3 {
       font-size: 1.2rem;
     }
 
     .product-details p {
-      font-size: 0.9rem;
+      font-size: 1.25rem;
+      margin-top: 1rem;
       color: #666;
     }
+    
 
     .product-card .actions {
       display: flex;
       justify-content: space-around;
-      margin-top: 1rem;
+      margin-top: 0.05rem;
     }
 
     .product-card .actions button {
@@ -101,18 +138,30 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    .product-card .actions button .icon-action{
-      font-size: 1.5rem;
+    .actions img{
+      height: 60px;
+      width: 60px;
     }
 
-    .button{
-      width: 110%;
+    .product-card .actions button .icon-action {
+      font-size: 3.75rem;
+    }
+
+    button {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+
+
+    .button {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       margin-bottom: 1rem;
     }
 
-    .recent-btn{
+    .recent-btn {
       width: 208px;
       height: 51px;
       background-color: #426B1F;
@@ -121,27 +170,28 @@
       border: none;
       font-size: 24px;
 
+
     }
 
-    
+
 
     /* Shipping Timeline */
     .shipping-timeline {
       background-color: #f3f3f3;
-      padding: 1rem;
+
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin: 6.8125rem 5.81% 6.8125rem 0;
-      width:52.62%;
-      
+      margin: 5.8rem 5.68% 6.8125rem 0;
+      width: 51.45%;
+
     }
-    
+
     .shipping-timeline {
       display: flex;
       flex-direction: column;
       /* width: fit-content; */
-   
-      
+
+
     }
 
     .shipping-timeline h3 {
@@ -156,12 +206,15 @@
       text-align: center;
     }
 
-    .caution{
-      padding-bottom: 5px;
+    .caution {
       display: flex;
       flex-direction: column;
       align-items: center;
-     
+
+    }
+    .caution h3{
+      margin-top: 1.0625rem;
+
     }
 
     .shipping-timeline ul {
@@ -171,25 +224,29 @@
 
     .shipping-timeline ul li {
       display: flex;
-      align-items: center;}
+      align-items: center;
+    }
 
     .shipping-timeline ul .date-time::before {
       content: "📅";
       margin-right: 0.5rem;
       font-size: 2.2rem;
     }
-    .column-line{
+
+    .column-line {
       margin-left: 12.5rem;
       padding: 0;
       font-weight: bold;
-      font-size:x-large;
+      font-size: x-large;
     }
-    .time-table{
+
+    .time-table {
       margin-left: 3em;
-      
+
     }
+
     .time {
-      display: flex; 
+      display: flex;
       justify-content: center;
       margin-left: 4em;
     }
@@ -202,6 +259,8 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      padding-bottom: 3.375rem;
+
     }
 
     footer div {
@@ -209,21 +268,91 @@
     }
 
     footer h4 {
-      font-size: 1rem;
+      font-size: 20px;
       margin-bottom: 0.5rem;
     }
 
-    footer p {
-      font-size: 0.8rem;
+    .socials {
+      display: flex;
+      justify-content: space-evenly;
+      width: 60%;
+      margin-left: -5%;
+      margin-top: 8%;
     }
+
+    .icon-social {
+      font-size: 20px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
     .line {
       margin: 0;
     }
-     .line p {
+
+    .line p {
       padding-top: 10px;
     }
-    .icon p{
+
+    .icon p {
       padding-top: 10px;
     }
-    
-    
+
+    /* tablet mobile */
+    @media (max-width: 1398px) {
+      header {
+        width: 200%;
+      }
+      
+      footer {
+        width: 200%;
+      }
+
+      .progress-bar img {
+        width: 100%;
+        position: relative;
+        left: 60%;
+        height: fit-content;
+      }
+
+      img {
+        height: 50%;
+        width: 70%;
+      }
+
+      .container {
+        width: 200%;
+      }
+
+      .progress-bar h3 {
+        position: relative;
+        right: 16%;
+      }
+
+      .button {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+
+      .shipping-timeline {
+        width: fit-content;
+      }
+      
+    }
+
+    /* @media (max-width: ) {
+      .recent-btn{
+        height: ;
+        width: ;
+      }
+      
+      
+    } */
+
+
+
+   
