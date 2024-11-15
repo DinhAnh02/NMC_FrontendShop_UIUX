@@ -191,3 +191,27 @@
      .line p {
       padding-top: 10px;
     }
+    /* mobile model */
+    @media (min-width: 768px) {
+      .container {
+        flex-direction: row;
+        gap: 1rem;
+      }
+
+      .product-card {
+        max-width: 50%;
+      }
+
+      .shipping-timeline {
+        max-width: 50%;
+      }
+    }
+    ul li {
+        padding: 10px;
+    }
+    .line {
+      margin: 0;
+    }
+     .line p {
+      padding-top: 10px;
+    }
