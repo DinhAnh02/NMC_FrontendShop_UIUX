@@ -6,7 +6,7 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color: #f3f3f3;
+
       color: #333;
     }
 
@@ -21,8 +21,13 @@
 
     header nav a {
       color: white;
-      margin: 0 1rem;
+      margin: 0 0.625rem;
       text-decoration: none;
+      font-size: 24px;
+    }
+
+    nav {
+      margin-right: 0.625rem;
     }
 
     header .profile-btn {
@@ -32,100 +37,184 @@
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      margin: 0 1rem;
+      margin: 0 1.5rem 0 1rem;
+      font-size: 24px;
     }
+
     .logo p {
-      margin-left: 2.5rem;
-      font-size: larger;
+      margin-left: 0.625rem;
+      font-size: 48px;
       font-weight: bold;
-      
+
     }
 
-
- 
-
+    .icon-user {
+      font-size: 24px;
+    }
 
     /* Main Layout */
     .container {
       display: flex;
-      flex-direction: column;
-      padding: 1rem;
-      max-width: 1200px;
-      margin: 0 auto;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
     }
 
     .progress-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 1rem 0;
-      background-color: #e5e5e5;
-      padding: 1rem;
-      border-radius: 8px;
+      margin: 2% 0 0 25%;
+      width: 70%;
+
+
     }
 
-    .progress-bar div {
-      text-align: center;
+    .progress-bar img {
+      position: relative;
+      left: -5%;
+      height: 90px;
+      width: 816.03px;
+
     }
+
+    .progress-bar h3 {
+      position: relative;
+      right: 27.7%;
+      
+    }
+
 
     /* Product Card */
     .product-card {
-      background-color: white;
-      padding: 1rem;
+
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      max-width: 400px;
-      margin: 1rem 0;
+
+      width: 31.55%;
+      margin: 5.9rem 5.68% 6.8125rem 5.68%;
       position: relative;
     }
 
     .product-card img {
       width: 100%;
+      height: 60%;
       border-radius: 8px;
     }
 
     .product-details {
-      padding: 1rem 0;
+      display: flex;
+      flex-direction: column;
     }
+
+    .actions{
+      margin-left: -8%;
+    }
+
 
     .product-details h3 {
       font-size: 1.2rem;
     }
 
     .product-details p {
-      font-size: 0.9rem;
+      font-size: 1.25rem;
+      margin-top: 1rem;
       color: #666;
     }
+    
 
     .product-card .actions {
       display: flex;
-      justify-content: space-between;
-      margin-top: 1rem;
+      justify-content: space-around;
+      margin-top: 0.05rem;
     }
 
     .product-card .actions button {
-      background-color: #3a6b35;
-      color: white;
+      background-color: white;
+      width: 50px;
+      height: max-content;
+      color: black;
       border: none;
       padding: 0.5rem;
       border-radius: 4px;
       cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+    .actions img{
+      height: 60px;
+      width: 60px;
+    }
+
+    .product-card .actions button .icon-action {
+      font-size: 3.75rem;
+    }
+
+    button {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+
+
+    .button {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .recent-btn {
+      width: 208px;
+      height: 51px;
+      background-color: #426B1F;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      font-size: 24px;
+
+
+    }
+
+
 
     /* Shipping Timeline */
     .shipping-timeline {
-      background-color: white;
-      padding: 1rem;
+      background-color: #f3f3f3;
+
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin: 1rem 0;
-      width: 100%;
-      max-width: 600px;
+      margin: 5.8rem 5.68% 6.8125rem 0;
+      width: 51.45%;
+
+    }
+
+    .shipping-timeline {
+      display: flex;
+      flex-direction: column;
+      /* width: fit-content; */
+
+
     }
 
     .shipping-timeline h3 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 0.3em;
+    }
+
+    .shipping-timeline p {
       font-size: 1.2rem;
-      color: #d33;
+      margin-bottom: 0.4em;
+      text-align: center;
+    }
+
+    .caution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .caution h3{
+      margin-top: 1.0625rem;
+
     }
 
     .shipping-timeline ul {
@@ -136,12 +225,30 @@
     .shipping-timeline ul li {
       display: flex;
       align-items: center;
-      margin: 0.5rem 0;
     }
 
-    .shipping-timeline ul li::before {
+    .shipping-timeline ul .date-time::before {
       content: "📅";
-      margin-right: 1rem;
+      margin-right: 0.5rem;
+      font-size: 2.2rem;
+    }
+
+    .column-line {
+      margin-left: 12.5rem;
+      padding: 0;
+      font-weight: bold;
+      font-size: x-large;
+    }
+
+    .time-table {
+      margin-left: 3em;
+
+    }
+
+    .time {
+      display: flex;
+      justify-content: center;
+      margin-left: 4em;
     }
 
     /* Footer */
@@ -152,6 +259,8 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      padding-bottom: 3.375rem;
+
     }
 
     footer div {
@@ -159,38 +268,34 @@
     }
 
     footer h4 {
-      font-size: 1rem;
+      font-size: 20px;
       margin-bottom: 0.5rem;
     }
 
+    .socials {
+      display: flex;
+      justify-content: space-evenly;
+      width: 60%;
+      margin-left: -5%;
+      margin-top: 8%;
+    }
+
+    .icon-social {
+      font-size: 20px;
+    }
+
     footer p {
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 
-    /* Responsive Design */
-    @media (min-width: 768px) {
-      .container {
-        flex-direction: row;
-        gap: 1rem;
-      }
-
-      .product-card {
-        max-width: 50%;
-      }
-
-      .shipping-timeline {
-        max-width: 50%;
-      }
-    }
-    ul li {
-        padding: 10px;
-    }
     .line {
       margin: 0;
     }
-     .line p {
+
+    .line p {
       padding-top: 10px;
     }
+<<<<<<< HEAD
     /* mobile model */
     @media (min-width: 768px) {
       .container {
@@ -215,3 +320,66 @@
      .line p {
       padding-top: 10px;
     }
+=======
+
+    .icon p {
+      padding-top: 10px;
+    }
+
+    /* tablet mobile */
+    @media (max-width: 1398px) {
+      header {
+        width: 200%;
+      }
+      
+      footer {
+        width: 200%;
+      }
+
+      .progress-bar img {
+        width: 100%;
+        position: relative;
+        left: 60%;
+        height: fit-content;
+      }
+
+      img {
+        height: 50%;
+        width: 70%;
+      }
+
+      .container {
+        width: 200%;
+      }
+
+      .progress-bar h3 {
+        position: relative;
+        right: 16%;
+      }
+
+      .button {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+
+      .shipping-timeline {
+        width: fit-content;
+      }
+      
+    }
+
+    /* @media (max-width: ) {
+      .recent-btn{
+        height: ;
+        width: ;
+      }
+      
+      
+    } */
+
+
+
+   
+>>>>>>> a6f28c4ea100b933ae81e9a5612e3e2949ba028c
