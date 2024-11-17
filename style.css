@@ -2,6 +2,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      font-family: Inter;
     }
 
     body {
@@ -11,7 +12,7 @@
     }
 
     header {
-      background-color: #3a6b35;
+      background-color: #426B1F;
       color: white;
       padding: 1rem;
       display: flex;
@@ -32,7 +33,7 @@
 
     header .profile-btn {
       background-color: #f2f2f2;
-      color: #333;
+      color: #426B1F;
       padding: 0.5rem 1rem;
       border: none;
       border-radius: 4px;
@@ -69,9 +70,9 @@
 
     .progress-bar img {
       position: relative;
-      left: -5%;
-      height: 90px;
-      width: 816.03px;
+      left: -6.87%;
+      height: 95px;
+      width: 894.1px;
 
     }
 
@@ -104,7 +105,7 @@
     }
 
     .actions{
-      margin-left: -8%;
+      margin-left: -9.3%;
     }
 
 
@@ -115,14 +116,14 @@
     .product-details p {
       font-size: 1.25rem;
       margin-top: 1rem;
-      color: #666;
+      color: black;
     }
     
 
     .product-card .actions {
       display: flex;
       justify-content: space-around;
-      margin-top: 0.05rem;
+      margin-top: 0.55rem;
     }
 
     .product-card .actions button {
@@ -169,6 +170,7 @@
       border-radius: 5px;
       border: none;
       font-size: 24px;
+      font-weight: normal;
 
 
     }
@@ -182,18 +184,16 @@
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       margin: 5.8rem 5.68% 6.8125rem 0;
-      width: 51.45%;
-
-    }
-
-    .shipping-timeline {
+      padding: 0;
+      /* width: 51.45%; */
+      width: 742px;
+      height: 807px;
       display: flex;
       flex-direction: column;
-      /* width: fit-content; */
-
 
     }
 
+   
     .shipping-timeline h3 {
       font-size: 2.5rem;
       text-align: center;
@@ -242,6 +242,7 @@
 
     .time-table {
       margin-left: 3em;
+     
 
     }
 
@@ -253,7 +254,7 @@
 
     /* Footer */
     footer {
-      background-color: #3a6b35;
+      background-color: #426B1F;
       color: white;
       padding: 1rem;
       display: flex;
@@ -295,7 +296,7 @@
     .line p {
       padding-top: 10px;
     }
-<<<<<<< HEAD
+/* HEAD */
     /* mobile model */
     @media (min-width: 768px) {
       .container {
@@ -312,7 +313,7 @@
       }
     }
     ul li {
-        padding: 10px;
+        padding: 8px;
     }
     .line {
       margin: 0;
@@ -320,7 +321,7 @@
      .line p {
       padding-top: 10px;
     }
-=======
+  
 
     .icon p {
       padding-top: 10px;
@@ -382,5 +383,5 @@
 
 
    
->>>>>>> a6f28c4ea100b933ae81e9a5612e3e2949ba028c
+
 /* Helloooo */
