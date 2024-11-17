@@ -5,44 +5,54 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
+      font-family:  "Inter", serif;
 
       color: #333;
     }
 
     header {
-      background-color: #3a6b35;
-      color: white;
+      background-color: #426B1F;
+      color: #FFFFFFE5;
       padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: 112px;
+    }
+    .contents {
+      display: flex;
+      align-items: center;
     }
 
     header nav a {
-      color: white;
-      margin: 0 0.625rem;
+      color: #FFFFFFCC;
+      margin-left: 23px;
       text-decoration: none;
       font-size: 24px;
     }
 
     nav {
-      margin-right: 0.625rem;
+      margin-right: 9px;
+    }
+    .bar {
+      display: none;
     }
 
     header .profile-btn {
       background-color: #f2f2f2;
-      color: #333;
-      padding: 0.5rem 1rem;
+      color:#426B1F;
+      width: 216px;
+      height: 51px;
+      /* padding: 0.5rem 1rem; */
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      margin: 0 1.5rem 0 1rem;
+      margin: 0 23px 0 23px;
       font-size: 24px;
     }
 
     .logo p {
-      margin-left: 0.625rem;
+      margin-left: 7px;
       font-size: 48px;
       font-weight: bold;
 
@@ -253,7 +263,7 @@
 
     /* Footer */
     footer {
-      background-color: #3a6b35;
+      background-color: #426B1F;
       color: white;
       padding: 1rem;
       display: flex;
@@ -276,7 +286,7 @@
       display: flex;
       justify-content: space-evenly;
       width: 60%;
-      margin-left: -5%;
+      margin-left: -8%;
       margin-top: 8%;
     }
 
