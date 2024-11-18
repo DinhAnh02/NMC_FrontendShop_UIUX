@@ -2,51 +2,62 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Inter;
+      font-family: Arial, sans-serif;
     }
 
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Inter", serif;
 
       color: #333;
     }
 
     header {
       background-color: #426B1F;
-      color: white;
+      color: #FFFFFFE5;
       padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: 112px;
+    }
+
+    .contents {
+      display: flex;
+      align-items: center;
     }
 
     header nav a {
-      color: white;
-      margin: 0 0.625rem;
+      color: #FFFFFFCC;
+      margin-left: 23px;
       text-decoration: none;
       font-size: 24px;
     }
 
     nav {
-      margin-right: 0.625rem;
+      margin-right: 9px;
+    }
+
+    .bar {
+      display: none;
     }
 
     header .profile-btn {
       background-color: #f2f2f2;
       color: #426B1F;
-      padding: 0.5rem 1rem;
+      width: 216px;
+      height: 51px;
+      /* padding: 0.5rem 1rem; */
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      margin: 0 1.5rem 0 1rem;
+      margin: 0 23px 0 23px;
       font-size: 24px;
     }
 
     .logo p {
-      margin-left: 0.625rem;
+      margin-left: 7px;
       font-size: 48px;
       font-weight: bold;
-
     }
 
     .icon-user {
@@ -70,7 +81,7 @@
 
     .progress-bar img {
       position: relative;
-      left: -6.87%;
+      left: -8%;
       height: 95px;
       width: 894.1px;
 
@@ -79,7 +90,7 @@
     .progress-bar h3 {
       position: relative;
       right: 27.7%;
-      
+
     }
 
 
@@ -104,8 +115,8 @@
       flex-direction: column;
     }
 
-    .actions{
-      margin-left: -9.3%;
+    .actions {
+      margin-left: -8%;
     }
 
 
@@ -118,7 +129,7 @@
       margin-top: 1rem;
       color: black;
     }
-    
+
 
     .product-card .actions {
       display: flex;
@@ -139,7 +150,8 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    .actions img{
+
+    .actions img {
       height: 60px;
       width: 60px;
     }
@@ -193,7 +205,7 @@
 
     }
 
-   
+
     .shipping-timeline h3 {
       font-size: 2.5rem;
       text-align: center;
@@ -212,7 +224,8 @@
       align-items: center;
 
     }
-    .caution h3{
+
+    .caution h3 {
       margin-top: 1.0625rem;
 
     }
@@ -242,7 +255,7 @@
 
     .time-table {
       margin-left: 3em;
-     
+
 
     }
 
@@ -277,6 +290,24 @@
       display: flex;
       justify-content: space-evenly;
       width: 60%;
+      margin-left: -8%;
+      margin-top: 8%;
+    }
+
+
+    footer div {
+      margin: 0.5rem;
+    }
+
+    footer h4 {
+      font-size: 20px;
+      margin-bottom: 0.5rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-evenly;
+      width: 60%;
       margin-left: -5%;
       margin-top: 8%;
     }
@@ -296,7 +327,8 @@
     .line p {
       padding-top: 10px;
     }
-/* HEAD */
+
+    /* HEAD */
     /* mobile model */
     @media (min-width: 768px) {
       .container {
@@ -312,16 +344,19 @@
         max-width: 50%;
       }
     }
+
     ul li {
-        padding: 8px;
+      padding: 8px;
     }
+
     .line {
       margin: 0;
     }
-     .line p {
+
+    .line p {
       padding-top: 10px;
     }
-  
+
 
     .icon p {
       padding-top: 10px;
@@ -332,7 +367,7 @@
       header {
         width: 200%;
       }
-      
+
       footer {
         width: 200%;
       }
@@ -368,20 +403,13 @@
       .shipping-timeline {
         width: fit-content;
       }
-      
+
     }
 
-    /* @media (max-width: ) {
-      .recent-btn{
-        height: ;
-        width: ;
-      }
-      
-      
-    } */
 
 
 
-   
 
-/* Helloooo */
+
+
+    /* Helloooo */

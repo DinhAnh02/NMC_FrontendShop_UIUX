@@ -1,0 +1,13 @@
+@media(max-width:385px){
+    .contents {
+        display: none;
+    }
+    .bar {
+        margin-right: 1.625rem;
+        font-size: 48px;
+        display: block;
+    }
+    .progress-bar {
+        display: none;
+    }
+}
