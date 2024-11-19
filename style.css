@@ -1,428 +1,385 @@
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Inter", serif;
-    }
-
-    body {
-      color: #333;
-    }
-
-    header {
-      background-color: #426B1F;
-      color: #FFFFFFE5;
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 112px;
-    }
-
-    .contents {
-      display: flex;
-      align-items: center;
-    }
-
-    header nav a {
-      color: #FFFFFFCC;
-      margin-left: 23px;
-      text-decoration: none;
-      font-size: 24px;
-    }
-
-    nav {
-      margin-right: 9px;
-    }
-
-    .bar {
-      display: none;
-    }
-
-    header .profile-btn {
-      background-color: #f2f2f2;
-      color: #426B1F;
-      width: 216px;
-      height: 51px;
-      /* padding: 0.5rem 1rem; */
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin: 0 23px 0 23px;
-      font-size: 24px;
-    }
-
-    .logo p {
-      margin-left: 7px;
-      font-size: 48px;
-      font-weight: bold;
-    }
-
-    .icon-user {
-      font-size: 24px;
-    }
-
-    /* Main Layout */
-    .container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: center;
-    }
-
-    .progress-bar {
-      margin: 2% 0 0 25%;
-      width: 70%;
-
-
-    }
-
-    .progress-bar img {
-      position: relative;
-      left: -8%;
-      height: 95px;
-      width: 894.1px;
-
-    }
-
-    .progress-bar h3 {
-      position: relative;
-      right: 27.7%;
-
-    }
-
-
-    /* Product Card */
-    .product-card {
-
-      border-radius: 8px;
-
-      width: 31.55%;
-      margin: 5.9rem 5.68% 6.8125rem 5.68%;
-      position: relative;
-    }
-
-    .product-card img {
-      width: 100%;
-      height: 60%;
-      border-radius: 8px;
-    }
-
-    .product-details {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .actions {
-      margin-left: -8%;
-    }
-
-
-    .product-details h3 {
-      font-size: 1.2rem;
-    }
-
-    .product-details p {
-      font-size: 1.25rem;
-      margin-top: 1rem;
-      color: black;
-    }
-
-
-    .product-card .actions {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 0.55rem;
-    }
-
-    .product-card .actions button {
-      background-color: white;
-      width: 50px;
-      height: max-content;
-      color: black;
-      border: none;
-      padding: 0.5rem;
-      border-radius: 4px;
-      cursor: pointer;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .actions img {
-      height: 60px;
-      width: 60px;
-    }
-
-    .product-card .actions button .icon-action {
-      font-size: 3.75rem;
-    }
-
-    button {
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-
-
-    .button {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 1rem;
-    }
-
-    .recent-btn {
-      width: 208px;
-      height: 51px;
-      background-color: #426B1F;
-      color: white;
-      border-radius: 5px;
-      border: none;
-      font-size: 24px;
-      font-weight: normal;
-
-
-    }
-
-
-
-    /* Shipping Timeline */
-    .shipping-timeline {
-      background-color: #f3f3f3;
-
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin: 5.8rem 5.68% 6.8125rem 0;
-      padding: 0;
-      /* width: 51.45%; */
-      width: 742px;
-      height: 807px;
-      display: flex;
-      flex-direction: column;
-
-    }
-
-
-    .shipping-timeline h3 {
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 0.3em;
-    }
-
-    .shipping-timeline p {
-      font-size: 1.2rem;
-      margin-bottom: 0.4em;
-      text-align: center;
-    }
-
-    .caution {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-    }
-
-    .caution h3 {
-      margin-top: 0.5rem;
-
-    }
-
-    .shipping-timeline {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-     
-    }
-
-    .time {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      align-items: center;
-    }
-
-    .time-table {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /* Căn giữa theo chiều ngang */
-      width: 100%;
-      margin-top: 15px;
-      line-height: 31.6px;
-    }
-
-    .time-table li {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .date-time {
-      display: flex;
-      align-items: center;
-      font-size: 1.25rem;
-      
-      
-    }
-
-    .column-line {
-       width: 3px;
-       height: 60px;
-       border: 2px solid #000;
-       border-radius: 50px;
-       margin-left: 20px
-       
-       
-    }
-
-    .date-time .X {
-      margin: 0 1rem;
-      
-    }
-
-
-    /* Footer */
-    footer {
-      background-color: #426B1F;
-      color: white;
-      padding: 1rem;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      padding-bottom: 3.375rem;
-
-    }
-
-    footer div {
-      margin: 0.5rem;
-    }
-
-    footer h4 {
-      font-size: 20px;
-      margin-bottom: 0.5rem;
-    }
-
-    .socials {
-      display: flex;
-      justify-content: space-evenly;
-      width: 60%;
-      margin-left: -8%;
-      margin-top: 8%;
-    }
-
-
-    footer div {
-      margin: 0.5rem;
-    }
-
-    footer h4 {
-      font-size: 20px;
-      margin-bottom: 0.5rem;
-    }
-
-    .socials {
-      display: flex;
-      justify-content: space-evenly;
-      width: 60%;
-      margin-left: -5%;
-      margin-top: 8%;
-    }
-
-    .icon-social {
-      font-size: 20px;
-    }
-
-    footer p {
-      font-size: 1rem;
-    }
-
-    .line {
-      margin: 0;
-    }
-
-    .line p {
-      padding-top: 10px;
-    }
-
-    /* HEAD */
-    /* mobile model */
-    @media (min-width: 768px) {
-      .container {
-        flex-direction: row;
-        gap: 1rem;
-      }
-
-      .product-card {
-        max-width: 50%;
-      }
-
-      .shipping-timeline {
-        max-width: 50%;
-      }
-    }
-
-    .line {
-      margin: 0;
-    }
-
-    .line p {
-      padding-top: 10px;
-    }
-
-
-    .icon p {
-      padding-top: 10px;
-    }
-
-    /* tablet mobile */
-    @media (max-width: 1398px) {
-      header {
-        width: 200%;
-      }
-
-      footer {
-        width: 200%;
-      }
-
-      .progress-bar img {
-        width: 100%;
-        position: relative;
-        left: 60%;
-        height: fit-content;
-      }
-
-      img {
-        height: 50%;
-        width: 70%;
-      }
-
-      .container {
-        width: 200%;
-      }
-
-      .progress-bar h3 {
-        position: relative;
-        right: 16%;
-      }
-
-      .button {
-
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1rem;
-      }
-
-      .shipping-timeline {
-        width: fit-content;
-      }
-
-    }
-
-
-
-
-
-
-
-    /* Helloooo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+body {
+  color: #333;
+}
+
+header {
+  background-color: #426b1f;
+  color: #ffffffe5;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  color: #ffffffcc;
+  margin-left: 23px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+nav {
+  margin-right: 9px;
+}
+
+.bar {
+  display: none;
+}
+
+header .profile-btn {
+  background-color: #f2f2f2;
+  color: #426b1f;
+  width: 216px;
+  height: 51px;
+  /* padding: 0.5rem 1rem; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 23px 0 23px;
+  font-size: 24px;
+}
+
+.logo p {
+  margin-left: 7px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.icon-user {
+  font-size: 24px;
+}
+
+/* Main Layout */
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 82px;
+  padding: 0 82px 0 82px;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  padding: 17px 82px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar img {
+  height: 100px;
+  width: 925px;
+  margin: 15px auto 0;
+  align-self: center;
+}
+
+.progress-bar h3 {
+  font-size: 32px;
+  line-height: 39px;
+}
+
+/* Product Card */
+.product-card {
+  width: 454px;
+}
+
+.product-card img {
+  width: 454px;
+  height: 444px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details h3 {
+  font-size: 1.2rem;
+}
+
+.product-details p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: black;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .actions {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-top: 16px;
+  height: 90px;
+  width: 398px;
+}
+
+.product-card .actions button {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  justify-content: center;
+}
+
+.click {
+  margin-left: 65.5px;
+}
+
+.actions img {
+  margin: 0;
+  height: 60px;
+  width: 60px;
+}
+
+.product-card .actions button .icon-action {
+  font-size: 3.75rem;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.recent-btn {
+  width: 208px;
+  height: 51px;
+  background-color: #426b1f;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Shipping Timeline */
+.shipping-timeline {
+  background-color: #f3f3f3;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 0 110px 0;
+  padding: 17px 55px 0 60px;
+  /* width: 51.45%; */
+  min-width: 742px;
+  height: 807px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-timeline h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.caution p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff0000;
+  margin-top: 17px;
+}
+
+.caution {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.time-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Căn giữa theo chiều ngang */
+  width: 100%;
+  margin-top: 28px;
+}
+
+.time-table li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.date-time {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.column-line {
+  width: 3px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  margin-left: 21px;
+  margin-top: -0.9px;
+  margin-bottom: -0.9px;
+}
+
+.date-time .X {
+  margin: 0 1rem;
+}
+
+span {
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #426b1f;
+  color: white;
+  padding: 25px 57px 0 57px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 3.375rem;
+}
+
+footer div {
+  margin: 0.5rem;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-left: -8%;
+  margin-top: 8%;
+}
+
+footer div {
+  margin: 0.5rem;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-left: -5%;
+  margin-top: 8%;
+}
+
+.icon-social {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.line {
+  margin: 0;
+}
+
+.line p {
+  padding-top: 10px;
+}
+
+/* HEAD */
+/* mobile model */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .product-card {
+    max-width: 50%;
+  }
+
+  .shipping-timeline {
+    max-width: 50%;
+  }
+}
+
+.line {
+  margin: 0;
+}
+
+.line p {
+  padding-top: 10px;
+}
+
+/* tablet model */
+@media (max-width: 1398px) {
+  header {
+    width: 200%;
+  }
+
+  footer {
+    width: 200%;
+  }
+
+  .progress-bar img {
+    width: 581px;
+    height: 70px;
+    position: relative;
+    left: 60%;
+  }
+
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 200%;
+  }
+
+  .progress-bar h3 {
+    position: relative;
+    right: 10%;
+  }
+
+  .button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+}
