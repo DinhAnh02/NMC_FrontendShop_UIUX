@@ -2,12 +2,10 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, sans-serif;
+      font-family: "Inter", serif;
     }
 
     body {
-      font-family: "Inter", serif;
-
       color: #333;
     }
 
@@ -226,44 +224,63 @@
     }
 
     .caution h3 {
-      margin-top: 1.0625rem;
+      margin-top: 0.5rem;
 
     }
 
-    .shipping-timeline ul {
-      list-style-type: none;
-      margin: 1rem 0;
-    }
-
-    .shipping-timeline ul li {
+    .shipping-timeline {
       display: flex;
+      flex-direction: column;
       align-items: center;
-    }
-
-    .shipping-timeline ul .date-time::before {
-      content: "📅";
-      margin-right: 0.5rem;
-      font-size: 2.2rem;
-    }
-
-    .column-line {
-      margin-left: 12.5rem;
-      padding: 0;
-      font-weight: bold;
-      font-size: x-large;
-    }
-
-    .time-table {
-      margin-left: 3em;
-
-
+     
     }
 
     .time {
       display: flex;
       justify-content: center;
-      margin-left: 4em;
+      width: 100%;
+      align-items: center;
     }
+
+    .time-table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Căn giữa theo chiều ngang */
+      width: 100%;
+      margin-top: 15px;
+      line-height: 31.6px;
+    }
+
+    .time-table li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .date-time {
+      display: flex;
+      align-items: center;
+      font-size: 1.25rem;
+      
+      
+    }
+
+    .column-line {
+       width: 3px;
+       height: 60px;
+       border: 2px solid #000;
+       border-radius: 50px;
+       margin-left: 20px
+       
+       
+    }
+
+    .date-time .X {
+      margin: 0 1rem;
+      
+    }
+
 
     /* Footer */
     footer {
@@ -343,10 +360,6 @@
       .shipping-timeline {
         max-width: 50%;
       }
-    }
-
-    ul li {
-      padding: 8px;
     }
 
     .line {
