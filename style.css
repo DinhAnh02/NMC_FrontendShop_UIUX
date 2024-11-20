@@ -95,12 +95,31 @@ header .profile-btn {
   width: 454px;
 }
 
+/* .product-card img {
+
 .product-card img {
+
   width: 454px;
   height: 444px;
   border-radius: 8px;
   margin-top: 40px;
+
+} */
+ .img_total {
+  width: 454px;
+  height: 444px;
+  border-radius: 8px;
+  margin-top: 40px;
+ }
+ .img1 {
+  width: 454px;
+  height: 444px;
+  border-radius: 8px;
+  margin-top: 40px;
+ }
+
 }
+
 
 .product-details {
   display: flex;
@@ -331,9 +350,11 @@ footer p {
     max-width: 50%;
   }
 
+
   .shipping-timeline {
     max-width: 50%;
   }
+
 }
 
 .line {
@@ -345,6 +366,7 @@ footer p {
 }
 
 /* tablet model */
+
 @media (max-width: 1398px) {
   header {
     width: 200%;
@@ -382,4 +404,6 @@ footer p {
     justify-content: space-between;
     margin-bottom: 1rem;
   }
+
+} 
 }
