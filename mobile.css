@@ -1,13 +1,107 @@
-@media(max-width:385px){
-    .contents {
-        display: none;
-    }
-    .bar {
-        margin-right: 1.625rem;
-        font-size: 48px;
-        display: block;
-    }
-    .progress-bar {
-        display: none;
-    }
+@media (max-width: 300px) {
+  .contents {
+    display: none;
+  }
+  .bar {
+    font-size: 37px;
+    display: block;
+  }
+  header {
+    min-width: 300px;
+    max-height: 42px;
+    height: 100%;
+    width: 100%;
+    padding: 12px 18px 13px 18px;
+  }
+  .progress-bar {
+    display: none;
+  }
+  .img_total {
+    height: 61px;
+    width: 62px;
+    border-radius: 0px;
+    margin: 0;
+  }
+  .container {
+    margin-top: 34px;
+    padding: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .shipping-timeline {
+    max-width: 300px;
+    width: 100%;
+    height: 339px;
+    padding: 0;
+    margin-top: 36px;
+  }
+  .product-details p {
+    font-size: 10px;
+    margin-top: 7px;
+  }
+  .shipping-timeline h3 {
+    font-size: 14px;
+    padding: 13px 80px 9px 80px;
+  }
+  .product-card {
+    flex-wrap: nowrap;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .time-table {
+    margin: 0;
+  }
+
+  footer {
+    min-width: 300px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .caution p {
+    display: none;
+  }
+
+  .logo p {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .footer.ft {
+    display: none;
+  }
+  .footer.icon p {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .product-card .actions {
+    display: none;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .recent-btn {
+    height: 22px;
+    width: 56px;
+    font-size: 7px;
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .line p,
+  .footer.ft1 h4 {
+    padding: 0;
+    margin: 0;
+  }
 }
