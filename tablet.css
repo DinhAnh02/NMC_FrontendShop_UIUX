@@ -1,0 +1,111 @@
+@media(max-width:834px) {
+    header {
+        height: 115px;
+    }
+    .container {
+        margin-top: 33px;
+        padding: 0 44px;
+    }
+    .product-card .actions button {
+        font-size: 11.6px;
+        justify-content: flex-start;
+    }
+    .logo p {
+        font-size: 28px;
+    }
+    header nav a {
+        font-size: 14px;
+        margin-left: 28px;
+    }
+    header .profile-btn  {
+        width: 125px;
+        height: 29px;
+        font-size: 14px;
+    }
+    .progress-bar h3{
+        right: 0;
+        font-size: 18px;
+    }
+    .progress-bar img{
+        width: 581px;
+        height: 70px;
+    }
+    .recent-btn {
+        width: 117px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .product-card {
+        width: 40%;
+    }
+    .img_total {
+        width: 100%;
+        height: 258px;
+    }
+    .actions img {
+        margin: 0;
+        height: 30px;
+        width: 30px;
+    }
+    .click {
+        margin: 0;
+    }
+    .product-card .actions button {
+        flex-direction: column ;
+    }
+    .button {
+        margin-bottom: 0;
+    }
+    .product-card img {
+        margin-top: 20px;
+    }
+    .shipping-timeline {
+        width: 60%;
+        min-width: 431px;
+        padding: 10px 20px;
+        height: 551px;
+        margin-bottom: 65px;
+    }
+    .shipping-timeline h3 {
+        font-size: 23px;
+        height: auto;
+    }
+    .caution p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    span {
+        margin-left: 0;
+    }
+    .date-time{
+        font-size: 11px;
+    }
+    .column-line {
+        height: 29px;
+    }
+    .product-details p {
+        font-size: 11.6px;
+        margin-top: 13.6px;
+    }
+    .progress-bar {
+        padding: 11px 44px 0 44px;
+    }
+    .img1 {
+        width: 35px;
+        height: 35px;
+    }
+    .footer p {
+        font-size: 9px;
+    }
+    footer h4 {
+        font-size: 12px;
+    }
+    footer {
+        padding: 20px 31px 0 31px;
+        flex-wrap: nowrap;
+    }
+    .icon-social {
+        font-size: 16px;
+    }
+    
+}
