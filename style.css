@@ -18,6 +18,9 @@ header {
   align-items: center;
   height: 112px;
 }
+.img_total_1 {
+  display: none;
+}
 
 .contents {
   display: flex;
@@ -79,7 +82,6 @@ header .profile-btn {
 }
 
 .progress-bar img {
-  height: 100px;
   width: 925px;
   margin: 15px auto 0;
   align-self: center;
@@ -198,25 +200,22 @@ button {
 /* Shipping Timeline */
 .shipping-timeline {
   background-color: #f3f3f3;
-
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 0 110px 0;
   padding: 17px 55px 0 60px;
   /* width: 51.45%; */
-  min-width: 742px;
+  width: 742px;
   height: 807px;
   display: flex;
   flex-direction: column;
 }
 
 .shipping-timeline h3 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   text-align: center;
 }
 
 .caution p {
-  font-size: 24px;
+  font-size: 1.45vw;
   line-height: 36px;
   color: #ff0000;
   margin-top: 17px;
@@ -247,13 +246,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 10px;
+  line-height: 1vw;
 }
 
 .date-time {
   display: flex;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.5vw;
 }
 
 .column-line {
@@ -335,23 +334,6 @@ footer p {
   padding-top: 10px;
 }
 
-/* HEAD */
-/* mobile model */
-@media (min-width: 768px) {
-  .container {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .product-card {
-    max-width: 50%;
-  }
-
-  .shipping-timeline {
-    max-width: 50%;
-  }
-}
-
 .line {
   margin: 0;
 }
@@ -359,54 +341,6 @@ footer p {
 .line p {
   padding-top: 10px;
 }
-
-/* tablet model */
-
-@media (max-width: 1398px) {
-  header {
-    width: 200%;
-  }
-
-  footer {
-    width: 200%;
-  }
-
-  .progress-bar img {
-    width: 981px;
-    height: 10 0px;
-    margin: 15px auto 0;
-    align-self: center;
-  }
-
-  /* body {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
-
-  .container {
-    display: flex;
-    width: 200%;
-    margin-top: 34px;
-    padding: 0 86px 0 86px;
-    justify-content: space-around;
-  }
-
-  .button {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-
-  .progress-bar {
-    padding: 17px 82px 0;
-    width: 200%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .progress-bar h3 {
-    margin-left: 5%;
-  }
+.button1 {
+  display: none;
 }
