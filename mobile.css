@@ -74,9 +74,8 @@
   .image {
     display: flex;
     align-self: flex-end;
-   
   }
-  .image .img_total{
+  .image .img_total {
     width: 62px;
     height: auto;
   }
@@ -135,7 +134,7 @@
     display: none;
   }
   .button .recent-btn {
-   display: none;
+    display: none;
   }
   .line p,
   .footer.ft1 h4 {
@@ -165,7 +164,7 @@
   .product-details p:nth-child(1) {
     transform: translate(46%, 18%);
   }
-  .button1 .recent-btn:last-child{
+  .button1 .recent-btn:last-child {
     width: 40px;
     height: 22px;
   }
@@ -175,7 +174,7 @@
   .line p {
     margin-top: 11px;
   }
-  .product-details{
+  .product-details {
     font-size: 10px;
     transform: translate(-52%, 13%);
   }
