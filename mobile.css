@@ -1,5 +1,8 @@
-@media (max-width: 300px) {
-  .contents {
+@media (max-width: 400px) {
+  .img-user {
+    display: none;
+  }
+  .content2 {
     display: none;
   }
   .bar {
@@ -20,11 +23,9 @@
     height: 61px;
     width: 62px;
     border-radius: 0px;
-    transform: translate(-17%, 0%);
+    transform: translate(-34%, 8%);
+
     margin: 0;
-  }
-  .product-details {
-    transform: translate(-5%, 0%);
   }
   .container {
     margin-top: 34px;
@@ -32,13 +33,14 @@
     width: 300px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
   }
   .shipping-timeline {
     min-width: 300px;
     width: 100%;
     height: 339px;
     padding: 0;
-    margin-top: 36px;
+    margin-bottom: 36px;
   }
   .product-details p {
     font-size: 10px;
@@ -55,6 +57,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     max-height: 60px;
+    transform: translate(-27%, 34%);
+    margin-bottom: 53px;
   }
   .time-table {
     margin: 0;
@@ -64,11 +68,17 @@
     width: fit-content;
     height: 36px;
     align-self: center;
-    transform: translate(-75%, 0%);
+    transform: translate(-179%, 15%);
+    display: none;
   }
   .image {
     display: flex;
     align-self: flex-end;
+   
+  }
+  .image .img_total{
+    width: 62px;
+    height: auto;
   }
 
   footer {
@@ -124,8 +134,8 @@
   .product-card .actions {
     display: none;
   }
-  .button {
-    display: none;
+  .button .recent-btn {
+   display: none;
   }
   .line p,
   .footer.ft1 h4 {
@@ -137,7 +147,7 @@
     display: flex;
     width: fit-content;
     align-self: flex-end;
-    transform: translate(0%, -133%);
+    transform: translate(110%, -117%);
   }
   .button1 .recent-btn {
     height: 22px;
@@ -147,12 +157,32 @@
     border-radius: 3px;
   }
   .product-details p:last-child {
-    transform: translate(0%, -180%);
+    transform: translate(46%, -122%);
+  }
+  .product-details p:nth-child(2) {
+    transform: translate(46%, -18%);
+  }
+  .product-details p:nth-child(1) {
+    transform: translate(46%, 18%);
+  }
+  .button1 .recent-btn:last-child{
+    width: 40px;
+    height: 22px;
   }
   .socials {
     display: none;
   }
   .line p {
     margin-top: 11px;
+  }
+  .product-details{
+    font-size: 10px;
+    transform: translate(-52%, 13%);
+  }
+}
+
+@media (max-width: 300px) {
+  .img_total_1 {
+    display: block;
   }
 }

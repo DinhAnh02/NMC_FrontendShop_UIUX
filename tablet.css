@@ -22,6 +22,8 @@
   .logo p {
     margin-left: 0px;
     font-size: 28px;
+    min-width: 200px;
+    width: 100%;
   }
 
   header img {
@@ -41,7 +43,8 @@
 
   .progress-bar img {
     height: 52px;
-    width: 581px;
+    max-width: 581px;
+    width: 100%;
     margin: 15px auto 0;
   }
 
@@ -56,7 +59,7 @@
   }
 
   .img_total {
-    width: 274px;
+    max-width: 274px;
     height: 258.1px;
     border-radius: 8px;
     margin-top: 20px;
@@ -107,11 +110,12 @@
   /* Shipping Timeline */
   .shipping-timeline {
     margin: 0 0 62px 0;
-    padding: 10px 21px 0px;
+    padding: 10px 21px 10px;
     /* width: 51.45%; */
     width: 431px;
     border-radius: 0px;
-    height: 469px;
+    /* height: 469px; */
+    height: auto;
   }
 
   .shipping-timeline h3 {
@@ -204,4 +208,26 @@
   .button1 {
     display: none;
   }
+}
+@media (max-width: 485px) {
+  .container{
+    padding: 5px;
+  }
+}
+@media (max-width: 726px) {
+  .content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 300px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .contents {
+    display: none;
+  }
+  .img-user {
+    display: block;
+  }
+
 }

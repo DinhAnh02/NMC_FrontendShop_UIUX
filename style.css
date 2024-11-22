@@ -21,6 +21,9 @@ header {
 .img_total_1 {
   display: none;
 }
+.content2 {
+  display: none;
+}
 
 .contents {
   display: flex;
@@ -184,6 +187,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  display: none;
 }
 
 .recent-btn {
@@ -341,6 +345,10 @@ footer p {
 .line p {
   padding-top: 10px;
 }
-.button1 {
+.img-user {
   display: none;
 }
+
+/* .button1 {
+  display: none;
+} */
