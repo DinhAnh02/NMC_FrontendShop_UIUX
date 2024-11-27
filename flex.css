@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1940px;
+  max-height: 1050px;
+  display: flex;
+  width: 100%;
+}
+.flex_home {
+  width: 36.1%;
+  height: 1050px;
+  padding: 60px 48px 23px 48px;
+}
+
+.flex_home .paragraph h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41.1px;
+}
+
+.flex_home .paragraph p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+}
+
+.paragraph {
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  height: 176px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.para p:last-child {
+  margin-top: 24px;
+}
+
+.vinhome_apt {
+  border: 1px solid black;
+  padding-top: 48px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.vinhome_apt_floor {
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  width: 192px;
+  margin-left: 48px;
+  padding: 18px 0px 18px;
+  height: 516px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.vinhome_apt_floor img {
+  align-self: center;
+  transform: translate(0%, 80%);
+}
+
+.choose_floor {
+  border: 1px solid white;
+  background-color: white;
+  padding: 12px 0px 12px;
+  width: 90px;
+  height: 18px;
+  text-align: center;
+  transform: translate(485%, 345%);
+}
+.choose_floor img {
+  transform: translate(0%, -355%);
+}
+
+.building_first {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.4px;
+}
+
+.choose_floor p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+}
+
+.floor {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.floor:last-child {
+  margin: 0;
+}
+.circle_floor {
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.circle_floor.first_floor {
+  background-color: black;
+  color: white;
+}
+
+.circle_floor.lastchild {
+  margin: 0;
+}
+.flex_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.infomation {
+  align-items: center;
+}
+.contact {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact span {
+  margin-left: 12px;
+}
+.contact img {
+  margin-left: 24px;
+}
+.prevent {
+  width: 1px;
+  height: 36px;
+  border: 1px solid #3b3b3b;
+  margin: 36px 36px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  transform: translate(0%, 36%);
+}
+img.img_tower {
+  margin-right: 36px;
+}
+.apartment {
+  max-width: 68.7%;
+  max-height: 1050px;
+  background-image: url("./img/background.png");
+
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  padding-top: 72px;
+}
+
+.flex {
+  display: flex;
+}
+
+.img-nut {
+  position: absolute;
+  top: 267px;
+}
+.img {
+  justify-content: center;
+}
+.product {
+  height: 258px;
+  width: 100%;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding-left: 24px;
+}
+.product_item {
+  width: 384px;
+  height: 210px;
+  border: 1px solid white;
+  align-items: center;
+  padding: 0 24px;
+  background: rgba(255, 255, 255, 0.2);
+  justify-content: space-between;
+  border-radius: 1px;
+  margin-right: 24px;
+}
+.text p {
+  color: white;
+}
+.text p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: end;
+}
+.text p:nth-child(2) {
+  margin-bottom: 12px;
+  text-align: end;
+}
+.text p:nth-child(3) {
+  margin-bottom: 12px;
+  text-align: end;
+}
+.text p:nth-child(4) {
+  margin-bottom: 12px;
+  text-align: end;
+}
+.text p:nth-child(5) {
+  margin-bottom: 12px;
+  text-align: end;
+}
+.product_item2 {
+  width: 22px;
+  height: 210px;
+  border: 1px solid white;
+  border-radius: 1px;
+}
+.brick {
+  width: 44px;
+  height: 1px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
