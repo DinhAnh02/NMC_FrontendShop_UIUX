@@ -164,7 +164,7 @@ img.img_tower {
 .apartment {
   max-width: 68.7%;
   max-height: 1050px;
-  background-image: url("./img/background.png");
+  background-image: url("../img/background.png");
 
   height: 100%;
   object-fit: cover;
