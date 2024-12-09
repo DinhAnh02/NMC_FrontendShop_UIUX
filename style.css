@@ -206,7 +206,7 @@ button {
 .shipping-timeline {
   background-color: #f3f3f3;
   margin: 0 0 110px 0;
-  padding: 17px 55px 0 60px;
+  padding: 17px 2.5vw 0 2.5vw;
   /* width: 51.45%; */
   width: 742px;
   height: 807px;
@@ -224,6 +224,7 @@ button {
   line-height: 36px;
   color: #ff0000;
   margin-top: 17px;
+  align-self: center;
 }
 
 .caution {
